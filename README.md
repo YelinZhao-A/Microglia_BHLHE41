@@ -65,12 +65,12 @@ The following R packages are used in the analyses:
 
 ## Usage
 1. Clone the repository
-   ```bash
-git clone https://github.com/yourusername/your-repo-name.git
-
+```bash
+git clone https://github.com/YelinZhao-A/Microglia_BHLHE41
+```
 3. Run the R script in the `R/` directory to generate the figures and statistic reports
 4. Run the Python script in the `Python/` directory to generate the figures for scRNA-seq related figures
 
-```
+
 
 
