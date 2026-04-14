@@ -2,7 +2,7 @@
 Aging accelerates CNS remyelination failure and neurodegeneration. Microglia promote remyelination by phagocytosing myelin debris, but this function is impaired by aging-related CD22 upregulation. However, the molecular mechanisms counteracting premature aging-related microglial dysfunction and remyelination impairment remain unclear. Here, we report that Aurka-Bhlhe41 axis prevents premature aging-like microglial dysfunction and promotes remyelination by restraining progressive CD22 upregulation. We identified that microglia-enriched Bhlhe41 was negatively autoregulated and inhibited by Aurka loss. Bhlhe41- or Aurka-deficient young mice exhibited aging-like microglial morphology, phagocytic deficits, progressive CD22 upregulation, and remyelination impairment in cuprizone-induced demyelination model. Conversely, ectopic Bhlhe41 expression induced hypertrophic microglia, and counteracted phagocytic deficits and CD22 upregulation in Aurka-deficient microglia. CD22 blockade restored phagocytic function and remyelination in Bhlhe41-deficient mice. Notably, a conserved pattern of CD22 upregulation was observed in human PCDH9high microglia subsets with BHLHE41 downregulation. These findings offer insights into potential therapeutic strategies to combat aging-related neurodegeneration and CNS functional decline.
 
 
-This repository contains the code used to generate the figures in the manuscript. 
+This repository contains the code used to generate statistics and figures in the manuscript. 
 Yan, W., Zhao, Y., Li, H. et al. Aurka-Bhlhe41 axis prevents premature aging-like microglial dysfunction and promotes remyelination. Nat Commun (2026). https://doi.org/10.1038/s41467-026-71014-w
 The code is written in R and Python. The code is organized into the following directories:
 
@@ -51,13 +51,9 @@ The following R packages are used in the analyses:
 
 3. **Count Data**
    - Poisson and negative binomial GLMs
-   - Overdispersion checks using Pearson residuals  
 
 4. **Mixed-Effects Models**
    - Linear mixed-effects models (LMMs) for repeated measurements
-   - Random intercepts for individual subjects
-   - Residual diagnostics using DHARMa
-   - Variance-structured mixed-effects models using nlme for heteroscedasticity  
 
 4. **scRNA analysis**
    - Data pre-processing
